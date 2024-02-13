@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A38E533F2B7BA34800074D2E /* ReminderViewController+Section.swift in Sources */ = {isa = PBXBuildFile; fileRef = A38E533E2B7BA34800074D2E /* ReminderViewController+Section.swift */; };
 		A3A0C51F2B7ACF740086F3B0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3A0C51E2B7ACF740086F3B0 /* AppDelegate.swift */; };
 		A3A0C5212B7ACF740086F3B0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3A0C5202B7ACF740086F3B0 /* SceneDelegate.swift */; };
 		A3A0C5232B7ACF740086F3B0 /* ReminderListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3A0C5222B7ACF740086F3B0 /* ReminderListViewController.swift */; };
@@ -24,6 +25,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A38E533E2B7BA34800074D2E /* ReminderViewController+Section.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ReminderViewController+Section.swift"; sourceTree = "<group>"; };
 		A3A0C51B2B7ACF740086F3B0 /* ReminderApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ReminderApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A3A0C51E2B7ACF740086F3B0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A3A0C5202B7ACF740086F3B0 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -127,6 +129,7 @@
 			children = (
 				A3A0C5442B7B05C60086F3B0 /* ReminderViewController.swift */,
 				A3A0C5472B7B06A70086F3B0 /* ReminderViewController+Row.swift */,
+				A38E533E2B7BA34800074D2E /* ReminderViewController+Section.swift */,
 			);
 			path = ReminderViewController;
 			sourceTree = "<group>";
@@ -202,6 +205,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A38E533F2B7BA34800074D2E /* ReminderViewController+Section.swift in Sources */,
 				A3A0C5232B7ACF740086F3B0 /* ReminderListViewController.swift in Sources */,
 				A3A0C5422B7B00290086F3B0 /* ReminderListViewController+Actions.swift in Sources */,
 				A3A0C5452B7B05C60086F3B0 /* ReminderViewController.swift in Sources */,
