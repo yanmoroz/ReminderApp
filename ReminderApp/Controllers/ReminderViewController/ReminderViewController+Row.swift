@@ -14,6 +14,8 @@ extension ReminderViewController {
         case notes
         case time
         case title
+        case editableDate(Date)
+        case editableText(String?)
         
         var imageName: String? {
             switch self {
@@ -23,7 +25,7 @@ extension ReminderViewController {
                 return "square.and.pencil"
             case .time:
                 return "clock"
-            case .title, .header:
+            case .title, .header, .editableText, .editableDate:
                 return nil
             }
         }
@@ -38,7 +40,7 @@ extension ReminderViewController {
             switch self {
             case .title:
                 return .headline
-            case .date, .notes, .time, .header:
+            case .date, .notes, .time, .header, .editableText, .editableDate:
                 return .subheadline
             }
         }
