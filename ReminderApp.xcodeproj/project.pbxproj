@@ -14,6 +14,7 @@
 		A38E534A2B7BE0E700074D2E /* UIContentConfiguration+Stateless.swift in Sources */ = {isa = PBXBuildFile; fileRef = A38E53492B7BE0E700074D2E /* UIContentConfiguration+Stateless.swift */; };
 		A38E534C2B7C07BF00074D2E /* TextViewContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A38E534B2B7C07BF00074D2E /* TextViewContentView.swift */; };
 		A38E534E2B7C0BA600074D2E /* DatePickerContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A38E534D2B7C0BA600074D2E /* DatePickerContentView.swift */; };
+		A38E53512B7C454F00074D2E /* ReminderListStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = A38E53502B7C454F00074D2E /* ReminderListStyle.swift */; };
 		A3A0C51F2B7ACF740086F3B0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3A0C51E2B7ACF740086F3B0 /* AppDelegate.swift */; };
 		A3A0C5212B7ACF740086F3B0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3A0C5202B7ACF740086F3B0 /* SceneDelegate.swift */; };
 		A3A0C5232B7ACF740086F3B0 /* ReminderListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3A0C5222B7ACF740086F3B0 /* ReminderListViewController.swift */; };
@@ -38,6 +39,7 @@
 		A38E53492B7BE0E700074D2E /* UIContentConfiguration+Stateless.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIContentConfiguration+Stateless.swift"; sourceTree = "<group>"; };
 		A38E534B2B7C07BF00074D2E /* TextViewContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextViewContentView.swift; sourceTree = "<group>"; };
 		A38E534D2B7C0BA600074D2E /* DatePickerContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatePickerContentView.swift; sourceTree = "<group>"; };
+		A38E53502B7C454F00074D2E /* ReminderListStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReminderListStyle.swift; sourceTree = "<group>"; };
 		A3A0C51B2B7ACF740086F3B0 /* ReminderApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ReminderApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A3A0C51E2B7ACF740086F3B0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A3A0C5202B7ACF740086F3B0 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -79,6 +81,15 @@
 			path = ContentViews;
 			sourceTree = "<group>";
 		};
+		A38E534F2B7C452E00074D2E /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				A3A0C5292B7ACF750086F3B0 /* LaunchScreen.storyboard */,
+				A3A0C5242B7ACF740086F3B0 /* Main.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
 		A3A0C5122B7ACF740086F3B0 = {
 			isa = PBXGroup;
 			children = (
@@ -105,9 +116,8 @@
 				A3A0C53E2B7AFFAA0086F3B0 /* Components */,
 				A38E53442B7BB81800074D2E /* ContentViews */,
 				A3A0C53B2B7AEB2D0086F3B0 /* Controllers */,
-				A3A0C5292B7ACF750086F3B0 /* LaunchScreen.storyboard */,
-				A3A0C5242B7ACF740086F3B0 /* Main.storyboard */,
 				A3A0C5342B7AD0500086F3B0 /* Models */,
+				A38E534F2B7C452E00074D2E /* Storyboards */,
 			);
 			path = ReminderApp;
 			sourceTree = "<group>";
@@ -117,6 +127,7 @@
 			children = (
 				A3A0C5372B7AE9520086F3B0 /* Date+Today.swift */,
 				A3A0C5352B7AD05E0086F3B0 /* Reminder.swift */,
+				A38E53502B7C454F00074D2E /* ReminderListStyle.swift */,
 				A3A0C5392B7AE95C0086F3B0 /* UIColor+Today.swift */,
 			);
 			path = Models;
@@ -237,6 +248,7 @@
 				A3A0C5232B7ACF740086F3B0 /* ReminderListViewController.swift in Sources */,
 				A3A0C5422B7B00290086F3B0 /* ReminderListViewController+Actions.swift in Sources */,
 				A3A0C5452B7B05C60086F3B0 /* ReminderViewController.swift in Sources */,
+				A38E53512B7C454F00074D2E /* ReminderListStyle.swift in Sources */,
 				A38E534A2B7BE0E700074D2E /* UIContentConfiguration+Stateless.swift in Sources */,
 				A3A0C5382B7AE9520086F3B0 /* Date+Today.swift in Sources */,
 				A3A0C51F2B7ACF740086F3B0 /* AppDelegate.swift in Sources */,

@@ -41,9 +41,9 @@ extension Reminder {
             notes: "Collaborate with project manager", isComplete: true),
         Reminder(
             title: "Interview new project manager candidate",
-            dueDate: Date().addingTimeInterval(60000.0), notes: "Review portfolio"),
+            dueDate: Date().addingTimeInterval(160000.0), notes: "Review portfolio"),
         Reminder(
-            title: "Mock up onboarding experience", dueDate: Date().addingTimeInterval(72000.0),
+            title: "Mock up onboarding experience", dueDate: Date().addingTimeInterval(172000.0),
             notes: "Think different"),
         Reminder(
             title: "Review usage analytics", dueDate: Date().addingTimeInterval(83000.0),
