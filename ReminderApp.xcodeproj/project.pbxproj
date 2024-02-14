@@ -35,6 +35,9 @@
 		A3A0C5422B7B00290086F3B0 /* ReminderListViewController+Actions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3A0C5412B7B00290086F3B0 /* ReminderListViewController+Actions.swift */; };
 		A3A0C5452B7B05C60086F3B0 /* ReminderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3A0C5442B7B05C60086F3B0 /* ReminderViewController.swift */; };
 		A3A0C5482B7B06A70086F3B0 /* ReminderViewController+Row.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3A0C5472B7B06A70086F3B0 /* ReminderViewController+Row.swift */; };
+		A3E685822B7D874F00B03C24 /* 2.png in Resources */ = {isa = PBXBuildFile; fileRef = A3E6857F2B7D874F00B03C24 /* 2.png */; };
+		A3E685832B7D874F00B03C24 /* 3.png in Resources */ = {isa = PBXBuildFile; fileRef = A3E685802B7D874F00B03C24 /* 3.png */; };
+		A3E685842B7D874F00B03C24 /* 1.png in Resources */ = {isa = PBXBuildFile; fileRef = A3E685812B7D874F00B03C24 /* 1.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -68,6 +71,9 @@
 		A3A0C5412B7B00290086F3B0 /* ReminderListViewController+Actions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ReminderListViewController+Actions.swift"; sourceTree = "<group>"; };
 		A3A0C5442B7B05C60086F3B0 /* ReminderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReminderViewController.swift; sourceTree = "<group>"; };
 		A3A0C5472B7B06A70086F3B0 /* ReminderViewController+Row.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ReminderViewController+Row.swift"; sourceTree = "<group>"; };
+		A3E6857F2B7D874F00B03C24 /* 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 2.png; sourceTree = "<group>"; };
+		A3E685802B7D874F00B03C24 /* 3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 3.png; sourceTree = "<group>"; };
+		A3E685812B7D874F00B03C24 /* 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +111,7 @@
 		A3A0C5122B7ACF740086F3B0 = {
 			isa = PBXGroup;
 			children = (
+				A3E685792B7D82BD00B03C24 /* github-images */,
 				A3A0C51D2B7ACF740086F3B0 /* ReminderApp */,
 				A3A0C51C2B7ACF740086F3B0 /* Products */,
 			);
@@ -128,6 +135,7 @@
 				A3A0C53E2B7AFFAA0086F3B0 /* Components */,
 				A38E53442B7BB81800074D2E /* ContentViews */,
 				A3A0C53B2B7AEB2D0086F3B0 /* Controllers */,
+				A3E6857A2B7D830000B03C24 /* Extensions */,
 				A3A0C5342B7AD0500086F3B0 /* Models */,
 				A38E534F2B7C452E00074D2E /* Storyboards */,
 			);
@@ -137,12 +145,7 @@
 		A3A0C5342B7AD0500086F3B0 /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				A38E53562B7C536000074D2E /* CAGradientLayer+ListStyle.swift */,
-				A3A0C5372B7AE9520086F3B0 /* Date+Today.swift */,
-				A38E535A2B7CFEFE00074D2E /* EKEventStore+AsyncFetch.swift */,
-				A38E53602B7D0E6800074D2E /* EKReminder+Reminder.swift */,
 				A3A0C5352B7AD05E0086F3B0 /* Reminder.swift */,
-				A38E535C2B7D00D700074D2E /* Reminder+EKReminder.swift */,
 				A38E53502B7C454F00074D2E /* ReminderListStyle.swift */,
 				A38E535E2B7D02C700074D2E /* ReminderStore.swift */,
 				A38E53582B7CFE9600074D2E /* TodayError.swift */,
@@ -187,6 +190,28 @@
 				A38E533E2B7BA34800074D2E /* ReminderViewController+Section.swift */,
 			);
 			path = ReminderViewController;
+			sourceTree = "<group>";
+		};
+		A3E685792B7D82BD00B03C24 /* github-images */ = {
+			isa = PBXGroup;
+			children = (
+				A3E685812B7D874F00B03C24 /* 1.png */,
+				A3E6857F2B7D874F00B03C24 /* 2.png */,
+				A3E685802B7D874F00B03C24 /* 3.png */,
+			);
+			path = "github-images";
+			sourceTree = "<group>";
+		};
+		A3E6857A2B7D830000B03C24 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				A38E53562B7C536000074D2E /* CAGradientLayer+ListStyle.swift */,
+				A3A0C5372B7AE9520086F3B0 /* Date+Today.swift */,
+				A38E535A2B7CFEFE00074D2E /* EKEventStore+AsyncFetch.swift */,
+				A38E53602B7D0E6800074D2E /* EKReminder+Reminder.swift */,
+				A38E535C2B7D00D700074D2E /* Reminder+EKReminder.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -247,9 +272,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A3E685842B7D874F00B03C24 /* 1.png in Resources */,
 				A3A0C52B2B7ACF750086F3B0 /* LaunchScreen.storyboard in Resources */,
 				A38E53552B7C4FD300074D2E /* Assets.xcassets in Resources */,
 				A3A0C5262B7ACF740086F3B0 /* Main.storyboard in Resources */,
+				A3E685822B7D874F00B03C24 /* 2.png in Resources */,
+				A3E685832B7D874F00B03C24 /* 3.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
